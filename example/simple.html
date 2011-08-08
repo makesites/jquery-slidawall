@@ -44,7 +44,9 @@ body {
 	margin-top: -212px;
 	margin-left: -320px;
 	-webkit-transition: -webkit-transform 1s ease-out;
-	transition: transform 1s ease-out;
+	-webkit-transform: rotate3d(0,1,0, 0deg);
+    transition: transform 1s ease-out;
+	transform: rotate3d(0,1,0, 0deg);
 	/* reflection */
 		-webkit-box-reflect:below -80px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.33, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.45)));
 }
