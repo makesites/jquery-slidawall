@@ -3,11 +3,11 @@
 <head>
 	<title>Slidawall: Simple example</title>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
-	<script type="text/javascript" src="../lib/slidawall.jquery.js"></script>
+	<script type="text/javascript" src="../lib/jquery.slidawall.js"></script>
 	<link rel="stylesheet" href="../lib/slidawall.styles.css" />
 	<script type="text/javascript">
 	$(document).ready(function(){
-		$('#slidawall').slidawall();
+		$('#example-1').slidawall();
 	});
 	</script>
 <style>
@@ -25,15 +25,17 @@ body {
 
 </head>
 <body>
-    <div id="slidawall">
-	<ul class="wall">
-		<li><img src="img/1.jpg" /></li>
-		<li><img src="img/2.jpg" /></li>
-		<li><img src="img/3.jpg" /></li>
-		<li><img src="img/4.jpg" /></li>
-		<li><img src="img/5.jpg" /></li>
-		<li><img src="img/6.jpg" /></li>
-	</ul>
-    </div>
+
+
+<section id="example-1">
+    <article data-image="img/1.jpg"></article>
+    <article data-image="img/2.jpg"></article>
+    <article data-image="img/3.jpg"></article>
+    <article data-image="img/4.jpg"></article>
+    <article data-image="img/5.jpg"></article>
+    <article data-image="img/6.jpg"></article>
+</section>
+
+
 </body>
 </html>
