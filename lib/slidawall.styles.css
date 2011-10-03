@@ -33,6 +33,7 @@
 	padding: 0;
 	overflow: hidden;
 	cursor: pointer;
+	background: #000;
 }
 
 .slidawall article {
