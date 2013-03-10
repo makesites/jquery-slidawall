@@ -1,0 +1,8 @@
+{
+	"name": "jquery.slidawall",
+	"version": "0.3.0",
+	"main": ["./lib/jquery.slidawall.js"],
+	"dependencies": {
+		"jquery": "~1.8.2"
+	}
+}
